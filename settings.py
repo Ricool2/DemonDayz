@@ -1,8 +1,8 @@
 from turtle import width
 
 
-w_width = 1280
-w_height = 720
+w_width = [1280, 1920]
+w_height = [720, 1080]
 fps = 60
 tilesize = 64
 
