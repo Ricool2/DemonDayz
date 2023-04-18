@@ -1,0 +1,129 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://Boy.tscn" type="PackedScene" id=1]
+[ext_resource path="res://World.gd" type="Script" id=2]
+[ext_resource path="res://Bush.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Pixel Art Top Down - Basic/Texture/TX Tileset Grass.png" type="Texture" id=4]
+[ext_resource path="res://Pixel Art Top Down - Basic/Texture/TX Tileset Stone Ground.png" type="Texture" id=6]
+[ext_resource path="res://TopDownFantasy_Forest_v1/Tiles/Tileset.png" type="Texture" id=7]
+
+[sub_resource type="TileSet" id=1]
+1/name = "TX Tileset Stone Ground.png 1"
+1/texture = ExtResource( 6 )
+1/tex_offset = Vector2( 0, 0 )
+1/modulate = Color( 1, 1, 1, 1 )
+1/region = Rect2( 0, 0, 256, 256 )
+1/tile_mode = 1
+1/autotile/bitmask_mode = 1
+1/autotile/bitmask_flags = [ Vector2( 0, 0 ), 432, Vector2( 0, 1 ), 438, Vector2( 0, 2 ), 54, Vector2( 0, 3 ), 48, Vector2( 0, 5 ), 255, Vector2( 0, 6 ), 219, Vector2( 0, 7 ), 507, Vector2( 1, 0 ), 504, Vector2( 1, 1 ), 511, Vector2( 1, 2 ), 63, Vector2( 1, 3 ), 56, Vector2( 1, 5 ), 63, Vector2( 1, 7 ), 504, Vector2( 2, 0 ), 216, Vector2( 2, 1 ), 219, Vector2( 2, 2 ), 27, Vector2( 2, 3 ), 24, Vector2( 2, 5 ), 447, Vector2( 2, 6 ), 438, Vector2( 2, 7 ), 510, Vector2( 3, 0 ), 144, Vector2( 3, 1 ), 146, Vector2( 3, 2 ), 18, Vector2( 3, 3 ), 16, Vector2( 4, 0 ), 187, Vector2( 4, 1 ), 190, Vector2( 4, 2 ), 250, Vector2( 4, 3 ), 442, Vector2( 4, 6 ), 248, Vector2( 4, 7 ), 59, Vector2( 5, 0 ), 176, Vector2( 5, 1 ), 178, Vector2( 5, 2 ), 50, Vector2( 5, 4 ), 251, Vector2( 5, 6 ), 440, Vector2( 5, 7 ), 62, Vector2( 6, 0 ), 184, Vector2( 6, 1 ), 186, Vector2( 6, 2 ), 58, Vector2( 6, 3 ), 191, Vector2( 6, 4 ), 186, Vector2( 6, 5 ), 506, Vector2( 6, 6 ), 182, Vector2( 6, 7 ), 434, Vector2( 7, 0 ), 152, Vector2( 7, 1 ), 154, Vector2( 7, 2 ), 26, Vector2( 7, 4 ), 446, Vector2( 7, 6 ), 155, Vector2( 7, 7 ), 218 ]
+1/autotile/icon_coordinate = Vector2( 1, 1 )
+1/autotile/tile_size = Vector2( 32, 32 )
+1/autotile/spacing = 0
+1/autotile/occluder_map = [  ]
+1/autotile/navpoly_map = [  ]
+1/autotile/priority_map = [  ]
+1/autotile/z_index_map = [  ]
+1/occluder_offset = Vector2( 0, 0 )
+1/navigation_offset = Vector2( 0, 0 )
+1/shape_offset = Vector2( 0, 0 )
+1/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+1/shape_one_way = false
+1/shape_one_way_margin = 0.0
+1/shapes = [  ]
+1/z_index = 0
+2/name = "TX Tileset Grass.png 2"
+2/texture = ExtResource( 4 )
+2/tex_offset = Vector2( 0, 0 )
+2/modulate = Color( 1, 1, 1, 1 )
+2/region = Rect2( 0, 0, 256, 256 )
+2/tile_mode = 1
+2/autotile/bitmask_mode = 1
+2/autotile/bitmask_flags = [ Vector2( 0, 4 ), 511, Vector2( 0, 5 ), 510, Vector2( 0, 6 ), 447, Vector2( 0, 7 ), 95, Vector2( 1, 4 ), 186, Vector2( 1, 5 ), 507, Vector2( 1, 6 ), 255, Vector2( 1, 7 ), 311, Vector2( 2, 4 ), 438, Vector2( 2, 5 ), 304, Vector2( 2, 6 ), 308, Vector2( 2, 7 ), 52, Vector2( 3, 4 ), 219, Vector2( 3, 5 ), 25, Vector2( 3, 6 ), 89, Vector2( 3, 7 ), 25, Vector2( 4, 4 ), 504, Vector2( 4, 5 ), 63, Vector2( 4, 6 ), 27, Vector2( 4, 7 ), 500, Vector2( 5, 4 ), 464, Vector2( 5, 5 ), 23, Vector2( 5, 6 ), 54, Vector2( 5, 7 ), 473, Vector2( 6, 4 ), 400, Vector2( 6, 5 ), 22, Vector2( 6, 6 ), 216, Vector2( 7, 4 ), 208, Vector2( 7, 5 ), 19, Vector2( 7, 6 ), 432 ]
+2/autotile/icon_coordinate = Vector2( 1, 4 )
+2/autotile/tile_size = Vector2( 32, 32 )
+2/autotile/spacing = 0
+2/autotile/occluder_map = [  ]
+2/autotile/navpoly_map = [  ]
+2/autotile/priority_map = [  ]
+2/autotile/z_index_map = [  ]
+2/occluder_offset = Vector2( 0, 0 )
+2/navigation_offset = Vector2( 0, 0 )
+2/shape_offset = Vector2( 0, 0 )
+2/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+2/shape_one_way = false
+2/shape_one_way_margin = 0.0
+2/shapes = [  ]
+2/z_index = 0
+
+[sub_resource type="TileSet" id=2]
+2/name = "Tileset.png 2"
+2/texture = ExtResource( 7 )
+2/tex_offset = Vector2( 0, 0 )
+2/modulate = Color( 1, 1, 1, 1 )
+2/region = Rect2( 0, 0, 128, 240 )
+2/tile_mode = 1
+2/autotile/bitmask_mode = 1
+2/autotile/bitmask_flags = [ Vector2( 3, 6 ), 432, Vector2( 3, 7 ), 438, Vector2( 3, 8 ), 54, Vector2( 4, 6 ), 504, Vector2( 4, 8 ), 63, Vector2( 5, 6 ), 216, Vector2( 5, 7 ), 219, Vector2( 5, 8 ), 27, Vector2( 6, 0 ), 511, Vector2( 6, 6 ), 510, Vector2( 6, 7 ), 447, Vector2( 7, 6 ), 507, Vector2( 7, 7 ), 255 ]
+2/autotile/icon_coordinate = Vector2( 6, 0 )
+2/autotile/tile_size = Vector2( 16, 16 )
+2/autotile/spacing = 0
+2/autotile/occluder_map = [  ]
+2/autotile/navpoly_map = [  ]
+2/autotile/priority_map = [  ]
+2/autotile/z_index_map = [  ]
+2/occluder_offset = Vector2( 0, 0 )
+2/navigation_offset = Vector2( 0, 0 )
+2/shape_offset = Vector2( 0, 0 )
+2/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+2/shape_one_way = false
+2/shape_one_way_margin = 0.0
+2/shapes = [  ]
+2/z_index = 0
+
+[node name="World" type="Node2D"]
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_horizontal_guides_": [  ]
+}
+
+[node name="BackGround" type="Sprite" parent="."]
+position = Vector2( 192, 108 )
+scale = Vector2( 48, 27 )
+texture = ExtResource( 4 )
+region_enabled = true
+region_rect = Rect2( 0, 0, 8, 8 )
+
+[node name="StoneTile" type="TileMap" parent="."]
+scale = Vector2( 0.5, 0.5 )
+tile_set = SubResource( 1 )
+cell_size = Vector2( 32, 32 )
+format = 1
+tile_data = PoolIntArray( -65535, 2, 393223, -65534, 2, 262148, -65533, 2, 393222, 1, 2, 262146, 2, 2, 262144, 3, 2, 262147, 65537, 2, 262146, 65538, 2, 262144, 65539, 2, 262147, 131073, 2, 262146, 131074, 2, 262144, 131075, 2, 327681, 131076, 2, 262148, 131077, 2, 393222, 196609, 2, 393221, 196610, 2, 393216, 196611, 2, 262144, 196612, 2, 262144, 196613, 2, 327681, 196614, 2, 393222, 196616, 2, 393223, 196617, 2, 393222, 196620, 2, 393223, 196621, 2, 262148, 196622, 2, 393222, 196630, 2, 393223, 196631, 2, 262148, 196632, 2, 393222, 262146, 2, 393221, 262147, 2, 393216, 262148, 2, 262144, 262149, 2, 262144, 262150, 2, 327681, 262151, 2, 262148, 262152, 2, 327680, 262153, 2, 327681, 262154, 2, 262148, 262155, 2, 262148, 262156, 2, 327680, 262157, 2, 262144, 262158, 2, 262147, 262161, 2, 393223, 262162, 2, 262148, 262163, 2, 262148, 262164, 2, 262148, 262165, 2, 262148, 262166, 2, 262145, 262167, 2, 327684, 262168, 2, 393220, 327683, 2, 393221, 327684, 2, 327684, 327685, 2, 393216, 327686, 2, 262144, 327687, 2, 393217, 327688, 2, 327684, 327689, 2, 327684, 327690, 2, 327684, 327691, 2, 393216, 327692, 2, 262144, 327693, 2, 262144, 327694, 2, 327681, 327695, 2, 262148, 327696, 2, 262148, 327697, 2, 327680, 327698, 2, 262144, 327699, 2, 262144, 327700, 2, 262144, 327701, 2, 393217, 327702, 2, 393220, 393221, 2, 262146, 393222, 2, 262144, 393223, 2, 262147, 393227, 2, 393221, 393228, 2, 327684, 393229, 2, 327684, 393230, 2, 327684, 393231, 2, 393216, 393232, 2, 393217, 393233, 2, 327684, 393234, 2, 327684, 393235, 2, 327684, 393236, 2, 327684, 393237, 2, 393220, 458754, 2, 393223, 458755, 2, 262148, 458756, 2, 262148, 458757, 2, 327680, 458758, 2, 393217, 458759, 2, 393220, 458767, 2, 393221, 458768, 2, 393220, 589823, 2, 393223, 524288, 2, 262148, 524289, 2, 262148, 524290, 2, 327680, 524291, 2, 393217, 524292, 2, 327684, 524293, 2, 327684, 524294, 2, 393220, 524332, 1, 196611, 655359, 2, 393221, 589824, 2, 327684, 589825, 2, 327684, 589826, 2, 327684, 589827, 2, 393220 )
+
+[node name="CliffTile" type="TileMap" parent="."]
+tile_set = SubResource( 2 )
+cell_size = Vector2( 32, 32 )
+format = 1
+tile_data = PoolIntArray( -65532, 1, 65537, -65531, 1, 65539, 4, 1, 196609, 5, 1, 196611, 7, 1, 65537, 8, 1, 65549, 9, 1, 65548, 10, 1, 65539, 65543, 1, 196609, 65544, 1, 196610, 65545, 1, 196610, 65546, 1, 196611, 262150, 1, 65537, 262151, 1, 65549, 262152, 1, 65538, 262153, 1, 65539, 327682, 1, 65537, 327683, 1, 65539, 327686, 1, 131081, 327687, 1, 131074, 327688, 1, 131074, 327689, 1, 65546, 393218, 1, 196609, 393219, 1, 196611, 393222, 1, 196609, 393223, 1, 196610, 393224, 1, 196610, 393225, 1, 196611 )
+
+[node name="CliffTile2" type="TileMap" parent="."]
+tile_set = SubResource( 2 )
+cell_size = Vector2( 16, 16 )
+format = 1
+
+[node name="YSort" type="YSort" parent="."]
+
+[node name="Boy" parent="YSort" instance=ExtResource( 1 )]
+position = Vector2( 207, 92 )
+
+[node name="Bush" parent="YSort" instance=ExtResource( 3 )]
+position = Vector2( 149, 110 )
+
+[node name="Bush2" parent="YSort" instance=ExtResource( 3 )]
+position = Vector2( 312, 120 )
+
+[node name="Bush3" parent="YSort" instance=ExtResource( 3 )]
+position = Vector2( 184, 152 )
+
+[node name="Bush4" parent="YSort" instance=ExtResource( 3 )]
+position = Vector2( 272, 24 )
